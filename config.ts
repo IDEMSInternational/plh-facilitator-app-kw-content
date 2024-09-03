@@ -1,10 +1,10 @@
-import { extendDeploymentConfig } from "scripts";
+import { generateDeploymentConfig } from "scripts";
 
-const config = extendDeploymentConfig({ name: "plh_kids_kw", parent: "plh_kids" });
+const config = generateDeploymentConfig("plh_kids_kw");
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-kids-app-kw-content.git",
-  content_tag_latest: "1.1.23",
+  content_tag_latest: "1.1.24",
 };
 
 config.google_drive.sheets_folder_ids = ["1Y8uC9-rqQtsjQgUfeX9qp-vNzsFDUQFU", "1pzgmUypvXYJS_ZcC1WmiHM5f4y2QYKsx"];
