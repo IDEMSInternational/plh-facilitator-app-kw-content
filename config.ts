@@ -11,7 +11,8 @@ config.google_drive.sheets_folder_ids = [
   "19wSspWYMbRc75een-kS0q0aq24--75u8", // library_app_menu
   "1UXVz71HniwdtklFnGUEBzzj8ZHI9oQVo", // library_field_values
   "1Y8uC9-rqQtsjQgUfeX9qp-vNzsFDUQFU", // kids_global
-  "1pzgmUypvXYJS_ZcC1WmiHM5f4y2QYKsx" // kids_kw
+  "1pzgmUypvXYJS_ZcC1WmiHM5f4y2QYKsx", // kids_kw
+  "1hM8QKhKEM94iFlzuTLh1AMAWTXZdLtbO" // geoffrey activity library
 ];
 
 config.google_drive.assets_folder_ids = ["1abaL1QGd33NqqLoKuo2t9fVWKmh5ouM9", "1d7Xf_k-kCiQsTGlpSAJnVLTTX5zTVvnp"];
